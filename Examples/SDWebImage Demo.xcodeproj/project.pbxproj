@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -37,11 +37,28 @@
 		537612AA155AB74D005750A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 537612A9155AB74D005750A4 /* AppDelegate.m */; };
 		537612AD155AB74D005750A4 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537612AC155AB74D005750A4 /* MasterViewController.m */; };
 		537612B0155AB74D005750A4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537612AF155AB74D005750A4 /* DetailViewController.m */; };
-		537612B3155AB74D005750A4 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 537612B1155AB74D005750A4 /* MasterViewController.xib */; };
-		537612B6155AB74D005750A4 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 537612B4155AB74D005750A4 /* DetailViewController.xib */; };
+		586AF3FD2AD5EF400016AC37 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537612E3155ABA3C005750A4 /* MapKit.framework */; };
+		586AF3FE2AD5EF400016AC37 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537612E6155ABA44005750A4 /* ImageIO.framework */; };
+		586AF3FF2AD5EF400016AC37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53761299155AB74D005750A4 /* UIKit.framework */; };
+		586AF4002AD5EF400016AC37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5376129B155AB74D005750A4 /* Foundation.framework */; };
+		586AF4012AD5EF400016AC37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5376129D155AB74D005750A4 /* CoreGraphics.framework */; };
+		586AF4082AD5EF400016AC37 /* CustomPathImages in Resources */ = {isa = PBXBuildFile; fileRef = 3E75A9851742DBE700DA412D /* CustomPathImages */; };
+		586AF4282AD5F69A0016AC37 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 586AF4162AD5F69A0016AC37 /* SceneDelegate.m */; };
+		586AF4292AD5F69A0016AC37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586AF4172AD5F69A0016AC37 /* Assets.xcassets */; };
+		586AF42A2AD5F69A0016AC37 /* CarPlayApplicationSceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 586AF4182AD5F69A0016AC37 /* CarPlayApplicationSceneDelegate.m */; };
+		586AF42B2AD5F69A0016AC37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 586AF41B2AD5F69A0016AC37 /* main.m */; };
+		586AF42D2AD5F69A0016AC37 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586AF41E2AD5F69A0016AC37 /* MainViewController.m */; };
+		586AF42F2AD5F69A0016AC37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 586AF4202AD5F69A0016AC37 /* AppDelegate.m */; };
+		586AF4302AD5F69A0016AC37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586AF4222AD5F69A0016AC37 /* LaunchScreen.storyboard */; };
+		586AF4312AD5F69A0016AC37 /* TemplateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 586AF4242AD5F69A0016AC37 /* TemplateManager.m */; };
+		586AF43C2AD5F73C0016AC37 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 586AF4392AD5F73C0016AC37 /* MainViewController.xib */; };
+		586AF4412AD5FA4D0016AC37 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 537612B4155AB74D005750A4 /* DetailViewController.xib */; };
+		586AF4422AD5FA4D0016AC37 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 537612B1155AB74D005750A4 /* MasterViewController.xib */; };
 		95616EF6906FA4C794E780E4 /* Pods_SDWebImage_OSX_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1299D5267E136DCF87A1A21A /* Pods_SDWebImage_OSX_Demo.framework */; };
+		96EB3E3ADD5E3CE5947BDCB2 /* Pods_SDWebImage_CarPlay_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF90F89C6ED973AE16954FA /* Pods_SDWebImage_CarPlay_Demo.framework */; };
 		AE96B96B254FB4A6A222D71E /* Pods_SDWebImage_TV_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDA5EB5742642C924545A48 /* Pods_SDWebImage_TV_Demo.framework */; };
-		CF64B1471621CF4AAEC747B7 /* Pods_SDWebImage_iOS_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225ECB6E7CB8DB707B498522 /* Pods_SDWebImage_iOS_Demo.framework */; };
+		CF64B1471621CF4AAEC747B7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		D823A74A42FBED6951470AFA /* Pods_SDWebImage_iOS_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D563BCA0E28E986A350BABB /* Pods_SDWebImage_iOS_Demo.framework */; };
 		DA248D44195470FD00390AB0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537612E3155ABA3C005750A4 /* MapKit.framework */; };
 		FB25FF804FC7C7868E4F9364 /* Pods_SDWebImage_Watch_Demo_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DBF9DAE0F88B4C7B529C575 /* Pods_SDWebImage_Watch_Demo_Extension.framework */; };
 /* End PBXBuildFile section */
@@ -126,14 +143,26 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		586AF40B2AD5EF400016AC37 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0829378FA7103DD8649CCCF3 /* Pods-SDWebImage iOS Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImage iOS Demo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SDWebImage iOS Demo/Pods-SDWebImage iOS Demo.release.xcconfig"; sourceTree = "<group>"; };
+		0D1D866DD423177287C5EDCD /* Pods-SDWebImage CarPlay Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImage CarPlay Demo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SDWebImage CarPlay Demo/Pods-SDWebImage CarPlay Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		0DBF9DAE0F88B4C7B529C575 /* Pods_SDWebImage_Watch_Demo_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDWebImage_Watch_Demo_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1299D5267E136DCF87A1A21A /* Pods_SDWebImage_OSX_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDWebImage_OSX_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		225ECB6E7CB8DB707B498522 /* Pods_SDWebImage_iOS_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDWebImage_iOS_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		153BB5947012BB451FCBB594 /* Pods-SDWebImage CarPlay Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImage CarPlay Demo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SDWebImage CarPlay Demo/Pods-SDWebImage CarPlay Demo.release.xcconfig"; sourceTree = "<group>"; };
 		28B8C1BB2DCC32E213DA3DAD /* Pods-SDWebImage TV Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImage TV Demo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SDWebImage TV Demo/Pods-SDWebImage TV Demo.release.xcconfig"; sourceTree = "<group>"; };
+		2D563BCA0E28E986A350BABB /* Pods_SDWebImage_iOS_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDWebImage_iOS_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		327E1C604113A7CEC9AC02DB /* Pods-SDWebImage Watch Demo Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImage Watch Demo Extension.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SDWebImage Watch Demo Extension/Pods-SDWebImage Watch Demo Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		32892E301FAE898C00BE8320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32892E341FAE89FD00BE8320 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -188,11 +217,30 @@
 		537612B5155AB74D005750A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
 		537612E3155ABA3C005750A4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		537612E6155ABA44005750A4 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		586AF4102AD5EF400016AC37 /* SDWebImage CarPlay Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDWebImage CarPlay Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		586AF4162AD5F69A0016AC37 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SceneDelegate.m; path = "SDWebImage CarPlay Demo/SceneDelegate.m"; sourceTree = "<group>"; };
+		586AF4172AD5F69A0016AC37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "SDWebImage CarPlay Demo/Assets.xcassets"; sourceTree = "<group>"; };
+		586AF4182AD5F69A0016AC37 /* CarPlayApplicationSceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarPlayApplicationSceneDelegate.m; path = "SDWebImage CarPlay Demo/CarPlayApplicationSceneDelegate.m"; sourceTree = "<group>"; };
+		586AF4192AD5F69A0016AC37 /* CarPlayApplicationSceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarPlayApplicationSceneDelegate.h; path = "SDWebImage CarPlay Demo/CarPlayApplicationSceneDelegate.h"; sourceTree = "<group>"; };
+		586AF41B2AD5F69A0016AC37 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "SDWebImage CarPlay Demo/main.m"; sourceTree = "<group>"; };
+		586AF41C2AD5F69A0016AC37 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "SDWebImage CarPlay Demo/Info.plist"; sourceTree = "<group>"; };
+		586AF41D2AD5F69A0016AC37 /* TemplateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TemplateManager.h; path = "SDWebImage CarPlay Demo/TemplateManager.h"; sourceTree = "<group>"; };
+		586AF41E2AD5F69A0016AC37 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = "SDWebImage CarPlay Demo/MainViewController.m"; sourceTree = "<group>"; };
+		586AF4202AD5F69A0016AC37 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "SDWebImage CarPlay Demo/AppDelegate.m"; sourceTree = "<group>"; };
+		586AF4212AD5F69A0016AC37 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "SDWebImage CarPlay Demo/AppDelegate.h"; sourceTree = "<group>"; };
+		586AF4222AD5F69A0016AC37 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "SDWebImage CarPlay Demo/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		586AF4232AD5F69A0016AC37 /* SDWebImage CarPlay Demo.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = "SDWebImage CarPlay Demo.entitlements"; path = "SDWebImage CarPlay Demo/SDWebImage CarPlay Demo.entitlements"; sourceTree = "<group>"; };
+		586AF4242AD5F69A0016AC37 /* TemplateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TemplateManager.m; path = "SDWebImage CarPlay Demo/TemplateManager.m"; sourceTree = "<group>"; };
+		586AF4252AD5F69A0016AC37 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneDelegate.h; path = "SDWebImage CarPlay Demo/SceneDelegate.h"; sourceTree = "<group>"; };
+		586AF4262AD5F69A0016AC37 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = "SDWebImage CarPlay Demo/MainViewController.h"; sourceTree = "<group>"; };
+		586AF4332AD5F6FE0016AC37 /* CustomPathImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CustomPathImages; sourceTree = "<group>"; };
+		586AF43A2AD5F73C0016AC37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "SDWebImage CarPlay Demo/en.lproj/MainViewController.xib"; sourceTree = "<group>"; };
 		5992BFDBF29AB5CBCAC896FB /* Pods-SDWebImage OSX Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImage OSX Demo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SDWebImage OSX Demo/Pods-SDWebImage OSX Demo.release.xcconfig"; sourceTree = "<group>"; };
 		5A56E15AF819F64FBF1F65A9 /* Pods-SDWebImage TV Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImage TV Demo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SDWebImage TV Demo/Pods-SDWebImage TV Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		789EDF4244C66933FDF3E181 /* Pods-SDWebImage iOS Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImage iOS Demo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SDWebImage iOS Demo/Pods-SDWebImage iOS Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		80C26B77F46D9332F328204E /* Pods-SDWebImage OSX Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImage OSX Demo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SDWebImage OSX Demo/Pods-SDWebImage OSX Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		9A205232F437C77F45A2EBD1 /* Pods-SDWebImage Watch Demo Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImage Watch Demo Extension.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SDWebImage Watch Demo Extension/Pods-SDWebImage Watch Demo Extension.release.xcconfig"; sourceTree = "<group>"; };
+		BBF90F89C6ED973AE16954FA /* Pods_SDWebImage_CarPlay_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDWebImage_CarPlay_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDA5EB5742642C924545A48 /* Pods_SDWebImage_TV_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDWebImage_TV_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9E0C74219598B400AFB434 /* Module-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Module-Release.xcconfig"; sourceTree = "<group>"; };
 		EA9E0C75219598B400AFB434 /* App-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "App-Debug.xcconfig"; sourceTree = "<group>"; };
@@ -236,7 +284,21 @@
 				5376129A155AB74D005750A4 /* UIKit.framework in Frameworks */,
 				5376129C155AB74D005750A4 /* Foundation.framework in Frameworks */,
 				5376129E155AB74D005750A4 /* CoreGraphics.framework in Frameworks */,
-				CF64B1471621CF4AAEC747B7 /* Pods_SDWebImage_iOS_Demo.framework in Frameworks */,
+				CF64B1471621CF4AAEC747B7 /* (null) in Frameworks */,
+				D823A74A42FBED6951470AFA /* Pods_SDWebImage_iOS_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586AF3FC2AD5EF400016AC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586AF3FD2AD5EF400016AC37 /* MapKit.framework in Frameworks */,
+				586AF3FE2AD5EF400016AC37 /* ImageIO.framework in Frameworks */,
+				586AF3FF2AD5EF400016AC37 /* UIKit.framework in Frameworks */,
+				586AF4002AD5EF400016AC37 /* Foundation.framework in Frameworks */,
+				586AF4012AD5EF400016AC37 /* CoreGraphics.framework in Frameworks */,
+				96EB3E3ADD5E3CE5947BDCB2 /* Pods_SDWebImage_CarPlay_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +402,7 @@
 				43A629D01D0DFD000089D7DD /* SDWebImage OSX Demo */,
 				43A629EF1D0E07600089D7DD /* SDWebImage Watch Demo */,
 				43A629FE1D0E07600089D7DD /* SDWebImage Watch Demo Extension */,
+				586AF4152AD5F0090016AC37 /* SDWebImage CarPlay Demo */,
 				4314D1A71D0E1181004B36C9 /* SDWebImage TV Demo */,
 				53761298155AB74D005750A4 /* Frameworks */,
 				53761296155AB74D005750A4 /* Products */,
@@ -355,6 +418,7 @@
 				43A629EE1D0E07600089D7DD /* SDWebImage Watch Demo.app */,
 				43A629FA1D0E07600089D7DD /* SDWebImage Watch Demo Extension.appex */,
 				4314D1A61D0E1181004B36C9 /* SDWebImage TV Demo.app */,
+				586AF4102AD5EF400016AC37 /* SDWebImage CarPlay Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -370,7 +434,8 @@
 				1299D5267E136DCF87A1A21A /* Pods_SDWebImage_OSX_Demo.framework */,
 				BEDA5EB5742642C924545A48 /* Pods_SDWebImage_TV_Demo.framework */,
 				0DBF9DAE0F88B4C7B529C575 /* Pods_SDWebImage_Watch_Demo_Extension.framework */,
-				225ECB6E7CB8DB707B498522 /* Pods_SDWebImage_iOS_Demo.framework */,
+				BBF90F89C6ED973AE16954FA /* Pods_SDWebImage_CarPlay_Demo.framework */,
+				2D563BCA0E28E986A350BABB /* Pods_SDWebImage_iOS_Demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -381,14 +446,14 @@
 				3E75A9851742DBE700DA412D /* CustomPathImages */,
 				537612A8155AB74D005750A4 /* AppDelegate.h */,
 				537612A9155AB74D005750A4 /* AppDelegate.m */,
-				537612AB155AB74D005750A4 /* MasterViewController.h */,
-				537612AC155AB74D005750A4 /* MasterViewController.m */,
 				537612AE155AB74D005750A4 /* DetailViewController.h */,
 				537612AF155AB74D005750A4 /* DetailViewController.m */,
-				537612B1155AB74D005750A4 /* MasterViewController.xib */,
-				537612B4155AB74D005750A4 /* DetailViewController.xib */,
+				537612AB155AB74D005750A4 /* MasterViewController.h */,
+				537612AC155AB74D005750A4 /* MasterViewController.m */,
 				32892E341FAE89FD00BE8320 /* LaunchScreen.storyboard */,
 				32892E301FAE898C00BE8320 /* Assets.xcassets */,
+				537612B4155AB74D005750A4 /* DetailViewController.xib */,
+				537612B1155AB74D005750A4 /* MasterViewController.xib */,
 				537612A0155AB74D005750A4 /* Supporting Files */,
 			);
 			path = "SDWebImage Demo";
@@ -399,6 +464,38 @@
 			children = (
 				537612A1155AB74D005750A4 /* Info.plist */,
 				537612A5155AB74D005750A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		586AF4152AD5F0090016AC37 /* SDWebImage CarPlay Demo */ = {
+			isa = PBXGroup;
+			children = (
+				586AF4332AD5F6FE0016AC37 /* CustomPathImages */,
+				586AF4252AD5F69A0016AC37 /* SceneDelegate.h */,
+				586AF4162AD5F69A0016AC37 /* SceneDelegate.m */,
+				586AF4212AD5F69A0016AC37 /* AppDelegate.h */,
+				586AF4202AD5F69A0016AC37 /* AppDelegate.m */,
+				586AF4192AD5F69A0016AC37 /* CarPlayApplicationSceneDelegate.h */,
+				586AF4182AD5F69A0016AC37 /* CarPlayApplicationSceneDelegate.m */,
+				586AF41D2AD5F69A0016AC37 /* TemplateManager.h */,
+				586AF4242AD5F69A0016AC37 /* TemplateManager.m */,
+				586AF4262AD5F69A0016AC37 /* MainViewController.h */,
+				586AF41E2AD5F69A0016AC37 /* MainViewController.m */,
+				586AF4222AD5F69A0016AC37 /* LaunchScreen.storyboard */,
+				586AF4172AD5F69A0016AC37 /* Assets.xcassets */,
+				586AF4392AD5F73C0016AC37 /* MainViewController.xib */,
+				586AF43D2AD5F76D0016AC37 /* Supporting Files */,
+			);
+			name = "SDWebImage CarPlay Demo";
+			sourceTree = "<group>";
+		};
+		586AF43D2AD5F76D0016AC37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				586AF4232AD5F69A0016AC37 /* SDWebImage CarPlay Demo.entitlements */,
+				586AF41C2AD5F69A0016AC37 /* Info.plist */,
+				586AF41B2AD5F69A0016AC37 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -414,6 +511,8 @@
 				9A205232F437C77F45A2EBD1 /* Pods-SDWebImage Watch Demo Extension.release.xcconfig */,
 				789EDF4244C66933FDF3E181 /* Pods-SDWebImage iOS Demo.debug.xcconfig */,
 				0829378FA7103DD8649CCCF3 /* Pods-SDWebImage iOS Demo.release.xcconfig */,
+				0D1D866DD423177287C5EDCD /* Pods-SDWebImage CarPlay Demo.debug.xcconfig */,
+				153BB5947012BB451FCBB594 /* Pods-SDWebImage CarPlay Demo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -535,6 +634,26 @@
 			productReference = 53761295155AB74D005750A4 /* SDWebImage iOS Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		586AF3F02AD5EF400016AC37 /* SDWebImage CarPlay Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 586AF40D2AD5EF400016AC37 /* Build configuration list for PBXNativeTarget "SDWebImage CarPlay Demo" */;
+			buildPhases = (
+				586AF3F32AD5EF400016AC37 /* [CP] Check Pods Manifest.lock */,
+				586AF3F42AD5EF400016AC37 /* Sources */,
+				586AF3FC2AD5EF400016AC37 /* Frameworks */,
+				586AF4032AD5EF400016AC37 /* Resources */,
+				586AF40B2AD5EF400016AC37 /* Embed Frameworks */,
+				586AF40C2AD5EF400016AC37 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDWebImage CarPlay Demo";
+			productName = "SDWebImage Demo";
+			productReference = 586AF4102AD5EF400016AC37 /* SDWebImage CarPlay Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -576,6 +695,7 @@
 				43A629ED1D0E07600089D7DD /* SDWebImage Watch Demo */,
 				43A629F91D0E07600089D7DD /* SDWebImage Watch Demo Extension */,
 				4314D1A51D0E1181004B36C9 /* SDWebImage TV Demo */,
+				586AF3F02AD5EF400016AC37 /* SDWebImage CarPlay Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -620,17 +740,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				537612B3155AB74D005750A4 /* MasterViewController.xib in Resources */,
-				537612B6155AB74D005750A4 /* DetailViewController.xib in Resources */,
+				586AF4412AD5FA4D0016AC37 /* DetailViewController.xib in Resources */,
+				586AF4422AD5FA4D0016AC37 /* MasterViewController.xib in Resources */,
 				32892E311FAE898C00BE8320 /* Assets.xcassets in Resources */,
 				32892E351FAE89FE00BE8320 /* LaunchScreen.storyboard in Resources */,
 				3E75A9861742DBE700DA412D /* CustomPathImages in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		586AF4032AD5EF400016AC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586AF43C2AD5F73C0016AC37 /* MainViewController.xib in Resources */,
+				586AF4292AD5F69A0016AC37 /* Assets.xcassets in Resources */,
+				586AF4302AD5F69A0016AC37 /* LaunchScreen.storyboard in Resources */,
+				586AF4082AD5EF400016AC37 /* CustomPathImages in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		586AF3F32AD5EF400016AC37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDWebImage CarPlay Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		586AF40C2AD5EF400016AC37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDWebImage CarPlay Demo/Pods-SDWebImage CarPlay Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage-CarPlay-Core/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImageWebPCoder-iOS/SDWebImageWebPCoder.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp-iOS/libwebp.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImageWebPCoder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SDWebImage CarPlay Demo/Pods-SDWebImage CarPlay Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		597F887D0D1A778333E020BA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -836,6 +1007,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		586AF3F42AD5EF400016AC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586AF42B2AD5F69A0016AC37 /* main.m in Sources */,
+				586AF4312AD5F69A0016AC37 /* TemplateManager.m in Sources */,
+				586AF4282AD5F69A0016AC37 /* SceneDelegate.m in Sources */,
+				586AF42D2AD5F69A0016AC37 /* MainViewController.m in Sources */,
+				586AF42F2AD5F69A0016AC37 /* AppDelegate.m in Sources */,
+				586AF42A2AD5F69A0016AC37 /* CarPlayApplicationSceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -891,6 +1075,14 @@
 				537612B5155AB74D005750A4 /* en */,
 			);
 			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+		586AF4392AD5F73C0016AC37 /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				586AF43A2AD5F73C0016AC37 /* en */,
+			);
+			name = MainViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1034,8 +1226,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 789EDF4244C66933FDF3E181 /* Pods-SDWebImage iOS Demo.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SR5D6FC58T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "SDWebImage Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1046,8 +1244,52 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0829378FA7103DD8649CCCF3 /* Pods-SDWebImage iOS Demo.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SR5D6FC58T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "SDWebImage Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		586AF40E2AD5EF400016AC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D1D866DD423177287C5EDCD /* Pods-SDWebImage CarPlay Demo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SDWebImage CarPlay Demo/SDWebImage CarPlay Demo.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SR5D6FC58T;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "SDWebImage CarPlay Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		586AF40F2AD5EF400016AC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153BB5947012BB451FCBB594 /* Pods-SDWebImage CarPlay Demo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SDWebImage CarPlay Demo/SDWebImage CarPlay Demo.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SR5D6FC58T;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "SDWebImage CarPlay Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1107,6 +1349,15 @@
 			buildConfigurations = (
 				537612BA155AB74D005750A4 /* Debug */,
 				537612BB155AB74D005750A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		586AF40D2AD5EF400016AC37 /* Build configuration list for PBXNativeTarget "SDWebImage CarPlay Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586AF40E2AD5EF400016AC37 /* Debug */,
+				586AF40F2AD5EF400016AC37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

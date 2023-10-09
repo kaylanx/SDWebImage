@@ -44,4 +44,11 @@ Pod::Spec.new do |s|
     mk.framework = 'MapKit'
     mk.dependency 'SDWebImage/Core'
   end
+
+  s.subspec 'CarPlay' do |mk|
+      mk.ios.deployment_target = '9.0'
+      mk.source_files = 'SDWebImageCarPlay/CarPlay/*.{h,m}'
+      mk.framework = 'CarPlay'
+      mk.dependency 'SDWebImage/Core'
+  end
 end

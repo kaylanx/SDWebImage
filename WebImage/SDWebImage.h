@@ -89,3 +89,8 @@ FOUNDATION_EXPORT const unsigned char SDWebImageVersionString[];
 #if __has_include(<SDWebImage/MKAnnotationView+WebCache.h>)
 #import <SDWebImage/MKAnnotationView+WebCache.h>
 #endif
+
+// CarPlay
+#if __has_include(<SDWebImage/CPListItem+WebCache.h>)
+#import <SDWebImage/CPListItem+WebCache.h>
+#endif

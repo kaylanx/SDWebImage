@@ -5,6 +5,11 @@ def all_example_pods
   pod 'SDWebImageWebPCoder', :git => 'https://github.com/SDWebImage/SDWebImageWebPCoder.git', :branch => 'master'
 end
 
+def carplay_example_pods
+  pod 'SDWebImage/CarPlay', :path => './'
+  pod 'SDWebImageWebPCoder', :git => 'https://github.com/SDWebImage/SDWebImageWebPCoder.git', :branch => 'master'
+end
+
 def watch_example_pods
   pod 'SDWebImage/Core', :path => './'
   pod 'SDWebImageWebPCoder', :git => 'https://github.com/SDWebImage/SDWebImageWebPCoder.git', :branch => 'master'
@@ -44,6 +49,12 @@ target 'SDWebImage Watch Demo Extension' do
   project example_project_path
   platform :watchos, '2.0'
   watch_example_pods
+end
+
+target 'SDWebImage CarPlay Demo' do
+  project example_project_path
+  platform :ios, '9.0'
+  carplay_example_pods
 end
 
 # Test Project

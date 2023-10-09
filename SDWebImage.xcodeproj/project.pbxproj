@@ -296,6 +296,15 @@
 		53761313155AD0D5005750A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53922D72148C55820056699D /* Foundation.framework */; };
 		53761314155AD0D5005750A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FB893F14D35D1A0020B787 /* CoreGraphics.framework */; };
 		53EDFB8C17623F7C00698166 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EDFB8917623F7C00698166 /* UIImage+MultiFormat.m */; };
+		586AF3A22ACEABB10016AC37 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2CADFF1AB4BB5300B6BC39 /* SDWebImage.framework */; };
+		586AF3A72ACEABB10016AC37 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3286569B2AB045DC00E0BDB7 /* PrivacyInfo.xcprivacy */; };
+		586AF3B32ACEACB60016AC37 /* CPListItem+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 586AF3B12ACEACB60016AC37 /* CPListItem+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		586AF3B42ACEACB60016AC37 /* CPListItem+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 586AF3B22ACEACB60016AC37 /* CPListItem+WebCache.m */; };
+		586AF3B62ACEACD70016AC37 /* SDWebImageCarPlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 586AF3B52ACEACD70016AC37 /* SDWebImageCarPlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		586AF3B92ACF5A0D0016AC37 /* CPListItem+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 586AF3B72ACF5A0D0016AC37 /* CPListItem+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		586AF3BA2ACF5A0D0016AC37 /* CPListItem+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 586AF3B82ACF5A0D0016AC37 /* CPListItem+WebCacheOperation.m */; };
+		586AF3BD2ACF6CD80016AC37 /* CPListItem+WebCacheState.h in Headers */ = {isa = PBXBuildFile; fileRef = 586AF3BB2ACF6CD80016AC37 /* CPListItem+WebCacheState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		586AF3BE2ACF6CD80016AC37 /* CPListItem+WebCacheState.m in Sources */ = {isa = PBXBuildFile; fileRef = 586AF3BC2ACF6CD80016AC37 /* CPListItem+WebCacheState.m */; };
 		5D5B9145188EE8DD006D06BD /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B9141188EE8DD006D06BD /* NSData+ImageContentType.m */; };
 		806BE07C2142C4A200E02143 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2CADFF1AB4BB5300B6BC39 /* SDWebImage.framework */; };
 		806BE07E2142C65200E02143 /* SDWebImageMapKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 806BE07D2142C65200E02143 /* SDWebImageMapKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -313,6 +322,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		586AF39E2ACEABB10016AC37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53922D66148C55810056699D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A2CADFE1AB4BB5300B6BC39;
+			remoteInfo = SDWebImage;
+		};
 		806BE07F2142C6C400E02143 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 53922D66148C55810056699D /* Project object */;
@@ -544,6 +560,14 @@
 		53EDFB8917623F7C00698166 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "Core/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
 		53FB893F14D35D1A0020B787 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		53FB894814D35E9E0020B787 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		586AF3AB2ACEABB10016AC37 /* SDWebImageCarPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImageCarPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		586AF3B12ACEACB60016AC37 /* CPListItem+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CPListItem+WebCache.h"; path = "SDWebImageCarPlay/CarPlay/CPListItem+WebCache.h"; sourceTree = "<group>"; };
+		586AF3B22ACEACB60016AC37 /* CPListItem+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CPListItem+WebCache.m"; path = "SDWebImageCarPlay/CarPlay/CPListItem+WebCache.m"; sourceTree = "<group>"; };
+		586AF3B52ACEACD70016AC37 /* SDWebImageCarPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCarPlay.h; sourceTree = "<group>"; };
+		586AF3B72ACF5A0D0016AC37 /* CPListItem+WebCacheOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CPListItem+WebCacheOperation.h"; path = "SDWebImageCarPlay/CarPlay/CPListItem+WebCacheOperation.h"; sourceTree = "<group>"; };
+		586AF3B82ACF5A0D0016AC37 /* CPListItem+WebCacheOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CPListItem+WebCacheOperation.m"; path = "SDWebImageCarPlay/CarPlay/CPListItem+WebCacheOperation.m"; sourceTree = "<group>"; };
+		586AF3BB2ACF6CD80016AC37 /* CPListItem+WebCacheState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CPListItem+WebCacheState.h"; path = "SDWebImageCarPlay/CarPlay/CPListItem+WebCacheState.h"; sourceTree = "<group>"; };
+		586AF3BC2ACF6CD80016AC37 /* CPListItem+WebCacheState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CPListItem+WebCacheState.m"; path = "SDWebImageCarPlay/CarPlay/CPListItem+WebCacheState.m"; sourceTree = "<group>"; };
 		5D5B9140188EE8DD006D06BD /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "Core/NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		5D5B9141188EE8DD006D06BD /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "Core/NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		806BE07D2142C65200E02143 /* SDWebImageMapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageMapKit.h; sourceTree = "<group>"; };
@@ -577,6 +601,14 @@
 				53761312155AD0D5005750A4 /* UIKit.framework in Frameworks */,
 				53761313155AD0D5005750A4 /* Foundation.framework in Frameworks */,
 				53761314155AD0D5005750A4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586AF3A12ACEABB10016AC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586AF3A22ACEABB10016AC37 /* SDWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,6 +776,7 @@
 		4A2CAE001AB4BB5300B6BC39 /* WebImage */ = {
 			isa = PBXGroup;
 			children = (
+				586AF3B52ACEACD70016AC37 /* SDWebImageCarPlay.h */,
 				4A2CAE031AB4BB5400B6BC39 /* SDWebImage.h */,
 				806BE07D2142C65200E02143 /* SDWebImageMapKit.h */,
 				4A2CAE011AB4BB5400B6BC39 /* Supporting Files */,
@@ -765,6 +798,7 @@
 			children = (
 				EA9E0C6A2195936400AFB434 /* Configs */,
 				53922D74148C55820056699D /* SDWebImage */,
+				586AF3AE2ACEAC3E0016AC37 /* SDWebImageCarPlay */,
 				3287E6C7244C0C1400007311 /* SDWebImageMapKit */,
 				4A2CAE001AB4BB5300B6BC39 /* WebImage */,
 				53922D71148C55820056699D /* Frameworks */,
@@ -779,6 +813,7 @@
 				53761325155AD0D5005750A4 /* libSDWebImage.a */,
 				4A2CADFF1AB4BB5300B6BC39 /* SDWebImage.framework */,
 				80B6DFEE2142B71600BCB334 /* SDWebImageMapKit.framework */,
+				586AF3AB2ACEABB10016AC37 /* SDWebImageCarPlay.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -904,6 +939,27 @@
 			name = Utils;
 			sourceTree = "<group>";
 		};
+		586AF3AE2ACEAC3E0016AC37 /* SDWebImageCarPlay */ = {
+			isa = PBXGroup;
+			children = (
+				586AF3B02ACEAC9E0016AC37 /* CarPlay */,
+			);
+			name = SDWebImageCarPlay;
+			sourceTree = "<group>";
+		};
+		586AF3B02ACEAC9E0016AC37 /* CarPlay */ = {
+			isa = PBXGroup;
+			children = (
+				586AF3B12ACEACB60016AC37 /* CPListItem+WebCache.h */,
+				586AF3B22ACEACB60016AC37 /* CPListItem+WebCache.m */,
+				586AF3B72ACF5A0D0016AC37 /* CPListItem+WebCacheOperation.h */,
+				586AF3B82ACF5A0D0016AC37 /* CPListItem+WebCacheOperation.m */,
+				586AF3BB2ACF6CD80016AC37 /* CPListItem+WebCacheState.h */,
+				586AF3BC2ACF6CD80016AC37 /* CPListItem+WebCacheState.m */,
+			);
+			name = CarPlay;
+			sourceTree = "<group>";
+		};
 		EA9E0C6A2195936400AFB434 /* Configs */ = {
 			isa = PBXGroup;
 			children = (
@@ -1000,6 +1056,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		586AF3A32ACEABB10016AC37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586AF3BD2ACF6CD80016AC37 /* CPListItem+WebCacheState.h in Headers */,
+				586AF3B32ACEACB60016AC37 /* CPListItem+WebCache.h in Headers */,
+				586AF3B62ACEACD70016AC37 /* SDWebImageCarPlay.h in Headers */,
+				586AF3B92ACF5A0D0016AC37 /* CPListItem+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80B6DFB82142B71600BCB334 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1046,6 +1113,25 @@
 			productName = SDWebImage;
 			productReference = 53761325155AD0D5005750A4 /* libSDWebImage.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		586AF39C2ACEABB10016AC37 /* SDWebImageCarPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 586AF3A82ACEABB10016AC37 /* Build configuration list for PBXNativeTarget "SDWebImageCarPlay" */;
+			buildPhases = (
+				586AF39F2ACEABB10016AC37 /* Sources */,
+				586AF3A12ACEABB10016AC37 /* Frameworks */,
+				586AF3A32ACEABB10016AC37 /* Headers */,
+				586AF3A62ACEABB10016AC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				586AF39D2ACEABB10016AC37 /* PBXTargetDependency */,
+			);
+			name = SDWebImageCarPlay;
+			productName = WebImage;
+			productReference = 586AF3AB2ACEABB10016AC37 /* SDWebImageCarPlay.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		80B6DF862142B71600BCB334 /* SDWebImageMapKit */ = {
 			isa = PBXNativeTarget;
@@ -1099,6 +1185,7 @@
 			targets = (
 				53761307155AD0D5005750A4 /* SDWebImage static */,
 				4A2CADFE1AB4BB5300B6BC39 /* SDWebImage */,
+				586AF39C2ACEABB10016AC37 /* SDWebImageCarPlay */,
 				80B6DF862142B71600BCB334 /* SDWebImageMapKit */,
 				326CA50C22BA14EF0033A92F /* SDWebImage XCFramework */,
 			);
@@ -1111,6 +1198,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				32EABAE62AB04CCD0004EB48 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586AF3A62ACEABB10016AC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586AF3A72ACEABB10016AC37 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1320,6 +1415,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		586AF39F2ACEABB10016AC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586AF3B42ACEACB60016AC37 /* CPListItem+WebCache.m in Sources */,
+				586AF3BA2ACF5A0D0016AC37 /* CPListItem+WebCacheOperation.m in Sources */,
+				586AF3BE2ACF6CD80016AC37 /* CPListItem+WebCacheState.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80B6DF872142B71600BCB334 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1331,6 +1436,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		586AF39D2ACEABB10016AC37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A2CADFE1AB4BB5300B6BC39 /* SDWebImage */;
+			targetProxy = 586AF39E2ACEABB10016AC37 /* PBXContainerItemProxy */;
+		};
 		806BE0802142C6C400E02143 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4A2CADFE1AB4BB5300B6BC39 /* SDWebImage */;
@@ -1397,6 +1507,22 @@
 			};
 			name = Release;
 		};
+		586AF3A92ACEABB10016AC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WebImage/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		586AF3AA2ACEABB10016AC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WebImage/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		80B6DFEC2142B71600BCB334 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1446,6 +1572,15 @@
 			buildConfigurations = (
 				53922D7A148C55820056699D /* Debug */,
 				53922D7B148C55820056699D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		586AF3A82ACEABB10016AC37 /* Build configuration list for PBXNativeTarget "SDWebImageCarPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586AF3A92ACEABB10016AC37 /* Debug */,
+				586AF3AA2ACEABB10016AC37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
